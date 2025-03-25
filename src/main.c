@@ -25,7 +25,7 @@ int repo_count = 0;
 void load_config(const char *filename) {
     FILE *file = fopen(filename, "r");
     if (file == NULL) {
-        perror("Erro in opening repository config!");
+        perror("Error in opening repository config!");
         exit(1);
     }
 
