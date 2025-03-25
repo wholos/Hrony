@@ -1,4 +1,4 @@
-/*Package Manager for PTU-OS, 2000-2025 Holos*/
+/*Package Manager, 2000-2025 Holos*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
