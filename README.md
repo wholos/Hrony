@@ -1,5 +1,5 @@
 # RePkg
-[![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)](https://gnu.org/)
+# [![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)](https://gnu.org/)
 
 How to install!?
 ``` bash
