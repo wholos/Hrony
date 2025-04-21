@@ -11,8 +11,8 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
-#define REPO_URL ""
-#define REPO_PATH ""
+#define REPO_URL "wholos.github.io"
+#define REPO_PATH "/RePkg.github.io/binary/"
 #define INSTALL_DIR "/usr/bin/"
 
 // HTTP client
