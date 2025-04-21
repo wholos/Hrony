@@ -4,7 +4,6 @@
 #
 How to install!?
 ``` bash
-sudo pacman -S json-c curl
 git clone https://github.com/wholos/RePkg/
 cd RePkg/
 make all
