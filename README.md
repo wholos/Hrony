@@ -1,5 +1,5 @@
 # Hrony
-[![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)](https://gnu.org/)
+![Nim](https://img.shields.io/badge/nim-%23FFE953.svg?style=for-the-badge&logo=nim&logoColor=white)
 ![GitHub License](https://img.shields.io/github/license/ruzen42/harkpkg?style=for-the-badge)
 #
 How to install!?
