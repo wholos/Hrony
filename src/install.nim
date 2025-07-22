@@ -1,0 +1,2 @@
+proc install*() =
+    echo "Install..."
