@@ -1,0 +1,2 @@
+proc delete*() =
+    echo "Delete..."
