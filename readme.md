@@ -8,5 +8,4 @@ cd hrony/
 make all
 ```
 
-How to use?
-```./hrony``` or ```hrony```
+How to use?  ***Check Wiki***
