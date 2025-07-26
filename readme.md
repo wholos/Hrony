@@ -8,4 +8,4 @@ cd hrony/
 make all
 ```
 
-How to use?  ***Check Wiki***
+How to use?  **Check Wiki**
