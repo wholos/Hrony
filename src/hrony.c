@@ -7,8 +7,11 @@ const char *repos;
 int inst(int argc,char *argv[]){
     for(int i = 2; i < argc; i++){
         char instll[256];
+        char chmd[256];
         snprintf(instll,sizeof(instll),"wget --directory-prefix=/bin/ %s%s",repos,argv[i]);
+        snprintf(chmd,sizeof(chmd),"chmod +x /bin/%s",argv[i]);
         system(instll);
+        system(chmd);
     }
 }
 int rmv(int argc,char *argv[]){
@@ -22,7 +25,7 @@ int main(int argc,char *argv[]){
     //conf
     config_t conf;
     config_init(&conf);
-    config_read_file(&conf,"hrony.conf");
+    config_read_file(&conf,"/etc/hrony.conf");
     config_lookup_string(&conf,"repository",&repos);
 
     //arg
