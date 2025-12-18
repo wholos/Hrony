@@ -7,7 +7,7 @@ const char *repos;
 int inst(int argc,char *argv[]){
     for(int i = 2; i < argc; i++){
         char instll[256];
-        snprintf(instll,sizeof(instll),"wget %s%s",repos,argv[i]);
+        snprintf(instll,sizeof(instll),"wget --directory-prefix=/bin/ %s%s",repos,argv[i]);
         system(instll);
     }
 }
