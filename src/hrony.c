@@ -3,12 +3,14 @@
 #include<stdlib.h>
 #include<string.h>
 #include<libconfig.h>
+#include"colorlib.h"
 const char *repos;
 int inst(int argc,char *argv[]){
     for(int i = 2; i < argc; i++){
         char instll[256];
         char chmd[256];
-        snprintf(instll,sizeof(instll),"wget --directory-prefix=/bin/ %s%s",repos,argv[i]);
+        printf(GREEN"Installing package: %s\n"reset, argv[i]);
+        snprintf(instll,sizeof(instll),"wget -q --directory-prefix=/bin/ %s%s",repos,argv[i]);
         snprintf(chmd,sizeof(chmd),"chmod +x /bin/%s",argv[i]);
         system(instll);
         system(chmd);
