@@ -1,5 +1,13 @@
 # Hrony
 (...)
+**dependencies**
+``` bash
+gcc
+make
+libconfig
+wget
+coreutils
+```
 
 How to install?
 ``` bash
